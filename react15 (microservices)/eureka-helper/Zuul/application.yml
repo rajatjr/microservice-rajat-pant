@@ -1,0 +1,6 @@
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 180000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
